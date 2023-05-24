@@ -1,0 +1,35 @@
+.app-settings-page {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    min-height: fit-content;
+    overflow-y: auto;
+    background-color:#fff;
+
+    .ms-Icon{
+        color: black;
+    }
+
+    .ms-Button{
+        background-color: #fff;
+        color: black;
+    }
+    .ms-Button:hover{
+        background-color: #e04eb7;
+        color: rgb(246, 74, 160);
+    }
+    h4,h3,p,span{
+        color: black;
+    }
+    span:hover{
+        color: rgb(255, 255, 255);
+    }
+    &-form {
+        flex-grow: 1;
+    }
+
+
+    &-sidebar {
+        flex-basis: 30vw;
+    }
+}
